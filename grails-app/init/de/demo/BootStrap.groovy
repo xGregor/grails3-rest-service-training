@@ -1,4 +1,4 @@
-package grails3.rest.service.training
+package de.demo
 
 class BootStrap {
 
