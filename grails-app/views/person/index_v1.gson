@@ -1,0 +1,9 @@
+import de.demo.Person
+
+model {
+	Iterable<Person> persons
+	Iterable<Person> personen
+}
+
+json tmpl.person(persons ?: [])
+

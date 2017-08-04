@@ -1,0 +1,11 @@
+import de.demo.Person
+
+model {
+	Person person
+}
+
+json {
+	name "${person.firstName} ${person.lastName}"
+	lastName person.lastName
+	firstName person.firstName
+}
